@@ -13076,9 +13076,21 @@ form.checkout-coupon input[type=text] {
   border-radius: 7px !important;
 }
 
+
+.lovela {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
 @media (max-width: 450px) {
   .ds{
     display: none !important;
+  }
+  .lovela {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
   }
 }
 
