@@ -267,7 +267,7 @@
                 "<i class='fa fa-angle-right'></i>"
             ],
             dots: true,
-            autoplay: true,
+            autoplay: false,
             responsive: {
                 0: {
                     items: 1

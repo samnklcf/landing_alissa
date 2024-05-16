@@ -571,7 +571,16 @@ input {
 }
 
 .btn-sm {
-  padding: 10px 35px;
+  padding: 4px 15px;
+  font-size: 12px;
+}
+
+.btn-sm-home{
+  padding: 4px 15px !important;
+  font-size: 12px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white; 
   font-size: 12px;
 }
 
@@ -5058,7 +5067,7 @@ body,
 }
 
 .pricing-items .single-item:nth-child(3) .pricing-header .icon i {
-  color: #e92460;
+  color: #f8b601;
 }
 
 .pricing-items .pricing-header .icon .shape-top .shape {
