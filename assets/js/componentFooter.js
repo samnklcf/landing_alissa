@@ -91,7 +91,7 @@ let footer =
     <div class="footer-bottom">
         <div class="row">
             <div class="col-lg-6">
-                <p>&copy;2023 Alissa ia. Tous droits réservés.</p>
+                <p>&copy; <span id="currentYear"></span> Alissa ia. Tous droits réservés.</p>
             </div>
             <div class="col-lg-6 text-right link">
                 <ul>
@@ -114,3 +114,22 @@ let footer =
 
 let footerComp = document.getElementById('footerComponent');
 footerComp.innerHTML = footer
+
+function updateCopyrightYear() {
+    let currentYearSpan = document.getElementById('currentYear');
+    let currentYear = new Date().getFullYear();
+    currentYearSpan.textContent = currentYear;
+}
+
+// For modern browsers
+if (document.addEventListener) {
+    document.addEventListener('DOMContentLoaded', updateCopyrightYear);
+} else if (document.attachEvent) { // For older IE
+    document.attachEvent('onreadystatechange', function() {
+        if (document.readyState === 'complete') {
+            updateCopyrightYear();
+        }
+    });
+} else { // As a last resort
+    window.onload = updateCopyrightYear;
+}
