@@ -26,9 +26,7 @@ let footer =
                         <li>
                             <a href="index.html">Accueil</a>
                         </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
+                        
                         <li>
                             <a href="#">Être donnateur</a>
                         </li>

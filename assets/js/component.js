@@ -73,9 +73,7 @@ let headerComponent = `
                     
                 </li>
                 
-                <li>
-                    <a href="#">Blog</a>
-                </li>
+                
                 <li>
                     <a href="contact.html">Contact</a>
                 </li>
