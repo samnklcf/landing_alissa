@@ -64,18 +64,7 @@ let headerComponent = `
                     <a href="services.html" class="dropdown-toggle" data-toggle="dropdown" >Services</a>
                     
                 </li>
-                <li >
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Alissa Free</a>
-                    
-                </li>
-                <li >
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Alissa Pro</a>
-                    
-                </li>
-                
-                <li>
-                    <a href="#">Blog</a>
-                </li>
+               
                 <li>
                     <a href="contact.html">Contact</a>
                 </li>
