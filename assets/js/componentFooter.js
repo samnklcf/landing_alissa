@@ -10,7 +10,7 @@ let footer =
                     <a class="navbar-brand" href="index.html">
                         <div style="display: flex; ">
                             <img src="assets/img/logo/logoB.png" class="logo" alt="Logo" width="50" height="50"> 
-                            <p style="margin: 1px; align-self: center; line-height: 15px;">Alissa <span style="color: #FEB95F;">ia</span></p>
+                            <p style="margin: 1px; align-self: center; line-height: 15px;" class="wh">Alissa <span style="color: #FEAE0E;">ia</span></p>
                         </div>
                     </a>
                     <p style="margin-left: 30px; margin-top: 10px;">
@@ -27,7 +27,7 @@ let footer =
                         <li>
                             <a href="index.html">Accueil</a>
                         </li>
-                        
+                    
                         <li>
                             <a href="#">Être donnateur</a>
                         </li>
@@ -68,7 +68,7 @@ let footer =
                                 <strong>Email:</strong> alissa.ia.ga@gmail.com
                             </li>
                             <li>
-                                <strong>Contacts:</strong> +241 74 57 00 40 / +241 74 88 02 67
+                                <strong>Contacts:</strong> +241 65 18 26 11 / +241 74 88 02 67
                             </li>
                         </ul>
                     </div>
