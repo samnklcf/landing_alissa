@@ -53,8 +53,8 @@
 
 .lovela {
   position: fixed;
-  bottom: 70px;
-  left: 30px;
+  bottom: 10px;
+  left: 10px;
   z-index: 999;
 }
 
@@ -67,4 +67,21 @@
     bottom: 10px;
     left: 10px;
   }
+}
+
+
+
+.golden-btn-class {
+  background-color: #f8b601;
+  color: white;
+}
+.golden-btn-class:hover {
+  color: white;
+  background-color: #f89501;
+  transition: 0.6s ease-in-out;
+}
+
+.wh {
+  color: white !important;
+  font-weight: 900;
 }

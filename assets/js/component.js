@@ -38,7 +38,7 @@ let headerComponent = `
             <a class="navbar-brand" href="index.html">
                 <div style="display: flex; ">
                     <img src="assets/img/logo/logoB.png" class="logo" alt="Logo" width="40" height="40"> 
-                    <p style="margin: 1px; align-self: center; line-height: 15px;">Alissa <span style="color: #FEB95F;">ia</span></p>
+                    <p style="margin: 1px; align-self: center; line-height: 15px;" class="wh">Alissa <span style="color: #FEAE0E;">ia</span></p>
                 </div>
             </a>
         </div>
@@ -65,8 +65,6 @@ let headerComponent = `
                     
                 </li>
                 
-                
-               
                 <li>
                     <a href="contact.html">Contact</a>
                 </li>
@@ -95,7 +93,7 @@ let headerComponent = `
                     <i class="flaticon-call-1"></i>
                 </div>
                 <div class="info" style="color: rgb(170, 170, 170)">
-                    <span>Téléphone</span> +241 74 57 00 40 <br> +241 74 88 02 67
+                    <span>Téléphone</span> +241 65 18 26 11 <br> +241 74 88 02 67
                 </div>
             </li>
             <li>
