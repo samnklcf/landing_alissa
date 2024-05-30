@@ -1,5 +1,6 @@
 let footer = 
 `
+<a target="_blank" class="lovela" href="https://wa.me/+24165182611"><img loading="lazy" src="assets/img/wh.gif" alt="" width="80"></a>
 <footer id="footerComponent">
 <div class="container">
     <div class="f-items default-padding">
@@ -26,9 +27,7 @@ let footer =
                         <li>
                             <a href="index.html">Accueil</a>
                         </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
+                        
                         <li>
                             <a href="#">Être donnateur</a>
                         </li>
