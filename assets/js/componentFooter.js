@@ -7,7 +7,7 @@ let footer =
         <div class="row">
             <div class="equal-height col-lg-4 col-md-6 item">
                 <div class="f-item about" style="display: flex; flex-direction: column; gap: 10px;">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="/">
                         <div style="display: flex; ">
                             <img src="assets/img/logo/logoB.png" class="logo" alt="Logo" width="50" height="50"> 
                             <p style="margin: 1px; align-self: center; line-height: 15px;" class="wh">Alissa <span style="color: #FEAE0E;">ia</span></p>
@@ -25,14 +25,14 @@ let footer =
                     <h4 class="widget-title">Liens Utiles</h4>
                     <ul>
                         <li>
-                            <a href="index.html">Accueil</a>
+                            <a href="/">Accueil</a>
                         </li>
                     
                         <li>
                             <a href="#">Être donnateur</a>
                         </li>
                         <li>
-                            <a href="contact.html">Contact</a>
+                            <a href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -43,13 +43,13 @@ let footer =
                     <h4 class="widget-title">Services</h4>
                     <ul>
                         <li>
-                            <a href="chatbots.html">Création de Chatbots</a>
+                            <a href="/chatbots">Création de Chatbots</a>
                         </li>
                         <li>
-                            <a href="assistant.html">Création d'Assistants Virtuels</a>
+                            <a href="/assistant">Création d'Assistants Virtuels</a>
                         </li>
                         <li>
-                            <a href="forma-consulting.html">Formation & Consulting</a>
+                            <a href="/forma-consulting">Formation & Consulting</a>
                         </li>
                     </ul>
                 </div>

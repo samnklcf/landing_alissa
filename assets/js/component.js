@@ -35,7 +35,7 @@ let headerComponent = `
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                 <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="/">
                 <div style="display: flex; ">
                     <img src="assets/img/logo/logoB.png" class="logo" alt="Logo" width="40" height="40"> 
                     <p style="margin: 1px; align-self: center; line-height: 15px;" class="wh">Alissa <span style="color: #FEAE0E;">ia</span></p>
@@ -49,24 +49,24 @@ let headerComponent = `
             <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 
                 <li >
-                    <a href="./index.html">Accueil</a>  
+                    <a href="/">Accueil</a>  
                 </li>
 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Alissa IA</a>
                     <ul class="dropdown-menu">
-                        <li><a href="apropos.html">À Propos</a></li>
+                        <li><a href="/apropos">À Propos</a></li>
                         <li><a target="_blank" href="#">Être donnateur</a></li>
-                        <!-- <li><a href="404.html">Error Page</a></li> -->
+                        
                     </ul>
                 </li>
                 <li >
-                    <a href="services.html" class="dropdown-toggle" data-toggle="dropdown" >Services</a>
+                    <a href="/services" class="dropdown-toggle" data-toggle="dropdown" >Services</a>
                     
                 </li>
                 
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="/contact">Contact</a>
                 </li>
 
                 
