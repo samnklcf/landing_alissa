@@ -80,3 +80,113 @@
     <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Alissa Pro</a>
     
 </li>
+
+
+
+
+<div class="col-lg-8 right-item">
+    <form id="form" method="POST">
+      <input
+        type="hidden"
+        name="access_key"
+        value="ec915aba-e5a8-49e8-847d-ff98a18f8e02"
+      />
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="form-group">
+            <input
+              class="form-control"
+              id="name"
+              name="nom"
+              placeholder="Noms et prénoms*"
+              type="text"
+              required
+            />
+            <span class="alert-error"></span>
+          </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group">
+              <input
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Votre Email*"
+                type="email"
+              />
+              <span class="alert-error"></span>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+        
+
+        <div class="col-lg-6">
+            <div class="form-group">
+              <input
+                class="form-control"
+                id="email"
+                name="Entreprise"
+                placeholder="Nom de l'entreprise (Facultatif)"
+                type="email"
+              />
+              <span class="alert-error"></span>
+            </div>
+          </div>
+
+          
+        
+        <div class="col-lg-6">
+          <div class="form-group">
+            <input
+              class="form-control"
+              id="phone"
+              name="Tel"
+              placeholder="Numéro de téléphone*"
+              type="text"
+              required
+            />
+            <span class="alert-error"></span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+            <div class="form-group">
+              
+              <select name="choix" id="choix" class="form-control">
+                <option value="...">Choisisser le motif</option>
+                <option value="Formation">Vous voulez une formation</option>
+                <option value="Consulting">Vous voulez une consultation pour votre entreprise</option>
+              </select>
+              <span class="alert-error"></span>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="form-group comments">
+            <textarea
+              class="form-control"
+              id="comments"
+              name="comments"
+              placeholder="Les détails de votre préocupation*"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <button type="submit" id="submit">
+            Envoyer <i class="fa fa-paper-plane"></i>
+          </button>
+          <br /><br />
+          <div id="result"></div>
+        </div>
+      </div>
+      <!-- Alert Message -->
+      <div class="col-lg-12 alert-notification">
+        <div id="message" class="alert-msg"></div>
+      </div>
+    </form>
+  </div>
