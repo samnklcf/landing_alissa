@@ -61,7 +61,7 @@ let headerComponent = `
                     </ul>
                 </li>
                 <li >
-                    <a href="/services" class="dropdown-toggle" data-toggle="dropdown" >Services</a>
+                    <a href="/services" >Services</a>
                     
                 </li>
                 
