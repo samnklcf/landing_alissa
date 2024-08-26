@@ -85,7 +85,7 @@ let headerComponent = `
                     <i class="flaticon-email"></i>
                 </div>
                 <div class="info" style="color: rgb(170, 170, 170)">
-                    <span>Email</span> alissa.ia.ga@gmail.com
+                    <span>Email</span> contact@alissa-ia.site
                 </div>
             </li>
             <li>
