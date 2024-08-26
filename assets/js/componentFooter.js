@@ -65,7 +65,7 @@ let footer =
                     <div class="address">
                         <ul>
                             <li>
-                                <strong>Email:</strong> alissa.ia.ga@gmail.com
+                                <strong>Email:</strong> contact@alissa-ia.site
                             </li>
                             <li>
                                 <strong>Contacts:</strong> +241 65 18 26 11 / +241 74 88 02 67
