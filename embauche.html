@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Générer une demande</title>
+  <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+  <header>
+    <h1>Générer une demande</h1>
+    <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Dashboard</a></li>
+        <li class="breadcrumb-item">Embauche</li>
+        <li class="breadcrumb-item">Générer uNE DEMANDE</li>
+      </ol>
+    </nav>
+    <a href="/" class="btn btn-secondary BackRetour">Retour</a>
+  </header>
+
+  <main id="main" class="main">
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="card HautSup">
+            <div class="card-body">
+              <h5 class="card-title">Veillez saisir les informations</h5>
+              <form id="generateForm">
+                <!-- Form fields here -->
+                <!-- Nom complet -->
+                <div class="row mb-3">
+                  <label for="nom" class="col-sm-12 col-form-label">Votre nom complet:</label>
+                  <div class="col-sm-12">
+                    <input type="text" id="nom" class="form-control" required>
+                  </div>
+                </div>
+                <!-- Age -->
+                <div class="row mb-3">
+                  <label for="age" class="col-sm-12 col-form-label">Votre âge:</label>
+                  <div class="col-sm-12">
+                    <input type="number" id="age" class="form-control" required>
+                  </div>
+                </div>
+                <!-- Genre -->
+                <div class="row mb-3">
+                  <label for="genre" class="col-sm-12 col-form-label">Genre:</label>
+                  <div class="col-sm-12">
+                    <select id="genre" class="form-select" required>
+                      <option value="Homme">Homme</option>
+                      <option value="Femme">Femme</option>
+                    </select>
+                  </div>
+                </div>
+                <!-- Other form fields here -->
+                <!-- Submit button -->
+                <div class="row mb-3">
+                  <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">Générer</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title .hidden">Idées générées</h5>
+              <div id="loader" class="hidden">Chargement...</div>
+              <div id="output"></div>
+              <button id="copyButton" class="btn btn-primary hidden">Copier</button>
+              <button id="saveButton" class="btn btn-success hidden">Enregistrer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

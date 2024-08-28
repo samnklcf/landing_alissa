@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.main {
+    padding: 20px;
+}
+
+.informations-personnelles,
+.informations-entreprise,
+.motivation {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.informations-personnelles h2,
+.informations-entreprise h2,
+.motivation h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
