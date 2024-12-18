@@ -469,6 +469,88 @@
       </div>
     </div>
 
+    <style>
+      .logo-container {
+        display: flex;
+        gap: 50px; /* Espace entre les logos */
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; /* Permet de passer à une disposition verticale sur petits écrans */
+      }
+    
+      .logo-container .logo {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid white; /* Bordure blanche */
+        box-shadow: 0 0 0 3px black; /* Bordure extérieure noire */
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+      }
+    
+      .logo-container .logo img {
+        width: 65%;
+        height: auto;
+        object-fit: cover; /* S'assure que l'image s'adapte bien */
+      }
+    
+      .site-heading h4 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+    
+      /* Responsivité */
+      @media (max-width: 768px) {
+        .logo-container {
+          gap: 20px; /* Réduit l'espace entre les logos sur petits écrans */
+        }
+    
+        .logo-container .logo {
+          width: 150px;
+          height: 150px; /* Les logos deviennent plus petits sur les écrans moyens */
+        }
+      }
+    
+      @media (max-width: 480px) {
+        .logo-container .logo {
+          width: 100px;
+          height: 100px; /* Les logos deviennent encore plus petits sur les très petits écrans */
+        }
+    
+        .site-heading h4 {
+          font-size: 18px; /* Réduit légèrement la taille du texte */
+        }
+      }
+    </style>
+    
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2">
+        <div class="site-heading text-center">
+          <h4>Ils nous ont fait confiance</h4>
+        </div>
+      </div>
+    </div>
+    
+    <div class="logo-container">
+      <div class="logo">
+        <img src="../assets/img/logo(1).jpg" alt="Logo 1">
+      </div>
+      <div class="logo">
+        <img src="assets/img/logo(2).jpg" alt="Logo 2">
+      </div>
+      <div class="logo">
+        <img src="assets/img/logo (3).png" alt="Logo 3">
+      </div>
+    </div>
+    
+    
+
+  
+
     <!-- End Testimonials Area -->
 
     <!-- Star Footer
