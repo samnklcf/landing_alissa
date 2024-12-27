@@ -68,6 +68,11 @@ let headerComponent = `
                     <a href="/services" >Services</a>
                     
                 </li>
+
+                 <li >
+                    <a href="/realisation" >Nos Réalisations</a>
+                    
+                </li>
                 
                 <li>
                     <a href="/contact">Contact</a>
@@ -97,7 +102,7 @@ let headerComponent = `
                     <i class="flaticon-call-1"></i>
                 </div>
                 <div class="info" style="color: rgb(170, 170, 170)">
-                    <span>Téléphone</span> +241 65 18 26 11 <br> +241 74 88 02 67
+                    <span>Téléphone</span> +241 74 57 00 40 <br> +241 65 18 26 11
                 </div>
             </li>
             <li>
@@ -105,7 +110,7 @@ let headerComponent = `
                     <i class="flaticon-countdown"></i>
                 </div>
                 <div class="info" style="color: rgb(170, 170, 170)">
-                    <span>Heures d'ouverture</span> Lun - Sam : 9:00 - 17:00
+                    <span>Heures d'ouverture</span> Lun - Ven : 9:00 - 17:00
                 </div> 
             </li>
         </ul>
